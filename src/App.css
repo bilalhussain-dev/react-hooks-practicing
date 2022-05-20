@@ -1,0 +1,70 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  background-color: #eee;
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+
+.counter-app, 
+.form-input{
+  width: 40%;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
+
+.counter{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(224, 30, 62);
+  color: #fff;
+  font-size: 1.6rem;
+  border: none;
+}
+
+.counter-value{
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+
+.heading-app{
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(207, 41, 69);
+}
